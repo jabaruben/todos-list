@@ -1,0 +1,26 @@
+{
+    "name": "jabaruben/todos-list",
+    "description": "Pet project with PHP API Rest in Backend and HTML5, CSS3, JavaScript Vanilla and WebComponents in the Frontend",
+    "type": "project",
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TodosList\\": "src/",
+            "src\\": "src/",
+            "Config\\": "",
+            "src\\Domain\\": [
+                "src/Domain/Errors/",
+                "src/Domain/ToDos/"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruben Carracedo",
+            "email": "jabaruben@gmail.com"
+        }
+    ]
+}
