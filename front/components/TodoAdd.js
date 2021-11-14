@@ -124,6 +124,7 @@ class TodoAdd extends HTMLElement {
         Array.from(this.checkboxes).forEach(checkbox => {
             checkbox.checked = false;
         });
+        this.inputName.focus();
     }
 }
 window.customElements.define('todo-add', TodoAdd);

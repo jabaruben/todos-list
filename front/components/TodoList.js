@@ -117,6 +117,8 @@ class TodoList extends HTMLElement {
         const tbody = this.shadowRoot.querySelector("tbody");
         tbody.innerHTML = rows;
         this.enableRemoveButtons();
+        const todoAdd = document.querySelector("todo-add");
+        todoAdd.inputName.focus();
     }
 
     prepareCategories(categories) {
